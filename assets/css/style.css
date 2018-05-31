@@ -77,6 +77,19 @@ h1 {
     overflow: auto;   
 }
 
+.container3 {
+    width: 920px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    height: 100%;
+    position: relative; 
+    top: 35px;
+    border: 1px solid #dddddd;
+    padding: 30px 20px;
+    clear: both;
+    overflow: auto;   
+}
+
 h2 {
     margin: 0px;
     padding: 0px;
@@ -115,6 +128,52 @@ textarea {
     height: 200px;
 }
 
+.box {
+    width: 210px;
+    height: 160px;
+    background-color: teal;
+    margin: 30px 30px 30px 0px;
+    bottom: 20px;
+}
+
+.hangman{
+    float: left;
+}
+
+.rpg {
+    float: left;
+}
+
+.trivia {
+    float: left;
+}
+
+.rutgers {
+    float: left;
+}
+
+.rock {
+    float: left;
+}
+
+img {
+    width: 210px;
+    height: 140px;
+    margin-top: 0px;
+}
+
+figure {
+    margin: 10px 0px 0px 288px;
+    width: 300px;
+    height: 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    color: white;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 125%;
+    
+}
 
 .footer {
     background: #666666;
