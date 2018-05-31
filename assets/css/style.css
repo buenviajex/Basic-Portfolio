@@ -29,7 +29,7 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     float: right;
     color: #777777;
-    padding: 29.5px;
+    padding: 29.5px 0px 29.5px 29.5px;
     background-color: #ffffff;
     margin-right: 288px;
 }
@@ -52,6 +52,19 @@ h1 {
 }
 
 .container {
+    width: 920px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    height: 100%;
+    position: relative; 
+    top: 35px;
+    border: 1px solid #dddddd;
+    padding: 30px 20px;
+    clear: both;
+    overflow: auto;   
+}
+
+.container2 {
     width: 920px;
     margin: 0 auto;
     background-color: #ffffff;
@@ -90,6 +103,19 @@ p {
     font-family: 'Arial', 'Helvetica', Helvetica, sans-serif;   
 }
 
+textarea {
+    font-family: 'Arial', 'Helvetica', Helvetica, sans-serif; 
+    padding-top: 10px;
+    padding-bottom: 0px;
+    color: #777777;
+    width: 915px
+}
+
+.message {
+    height: 200px;
+}
+
+
 .footer {
     background: #666666;
     padding-top: 20px;
@@ -101,6 +127,7 @@ p {
     color: #dddddd;
     text-align: center;
 }
+
 
 
 /*
